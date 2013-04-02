@@ -38,7 +38,8 @@ SOURCES += sensormanager.cpp \
     sockethandler.cpp \
     inputdevadaptor.cpp \
     config.cpp \
-    nodebase.cpp
+    nodebase.cpp \
+    iiodevice.cpp
 
 HEADERS += sensormanager.h \
     sensormanager_a.h \
@@ -66,7 +67,8 @@ HEADERS += sensormanager.h \
     sockethandler.h \
     inputdevadaptor.h \
     config.h \
-    nodebase.h
+    nodebase.h \
+    iiodevice.h
 
 !mce_disable {
     SOURCES += mcewatcher.cpp
